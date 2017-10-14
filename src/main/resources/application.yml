@@ -1,0 +1,25 @@
+server:
+  port: 9020
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      accessTokenUri: ${sso.address}/oauth/token
+      userAuthorizationUri: ${sso.address}/oauth/authorize
+      clientId: spark
+      clientSecret: spark
+    resource:
+      userInfoUri: ${sso.address}/user
+      tokenInfoUri: ${sso.address}/oauth/check_token
+      preferTokenInfo: true
+sso:
+  address: https://sso.sparkworks.net/aa
+spring:
+  datasource:
+    url: jdbc:h2:mem:GC;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
