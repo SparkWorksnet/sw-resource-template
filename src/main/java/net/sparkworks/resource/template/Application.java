@@ -1,4 +1,4 @@
-package net.sparkworks.gc;
+package net.sparkworks.resource.template;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 @SpringBootApplication
 @EnableResourceServer
-public class GcApplication {
+public class Application {
     
     public static void main(String[] args) {
-        SpringApplication.run(GcApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
     
 }

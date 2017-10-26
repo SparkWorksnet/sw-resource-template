@@ -1,4 +1,4 @@
-package net.sparkworks.gc.configuration;
+package net.sparkworks.resource.template.configuration;
 
 import org.springframework.context.annotation.Configuration;
 

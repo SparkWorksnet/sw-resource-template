@@ -1,6 +1,6 @@
-package net.sparkworks.gc.configuration;
+package net.sparkworks.resource.template.configuration;
 
-import net.sparkworks.gc.security.SparksPermissionEvaluator;
+import net.sparkworks.resource.template.security.SparksPermissionEvaluator;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionHandler;

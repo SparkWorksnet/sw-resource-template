@@ -1,6 +1,6 @@
-package net.sparkworks.gc.repository;
+package net.sparkworks.resource.template.repository;
 
-import net.sparkworks.gc.model.Template;
+import net.sparkworks.resource.template.model.Template;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.access.prepost.PostAuthorize;
 

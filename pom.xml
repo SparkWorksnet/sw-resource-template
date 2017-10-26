@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.sparkworks</groupId>
-    <artifactId>gc</artifactId>
+    <artifactId>resource</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>gc</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Spark Works Resource Server Template for Spring Boot</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -80,7 +80,6 @@
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
-            <!--<version>2.0.11.RELEASE</version>-->
         </dependency>
     </dependencies>
 

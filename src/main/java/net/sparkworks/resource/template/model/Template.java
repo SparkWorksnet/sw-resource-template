@@ -1,4 +1,4 @@
-package net.sparkworks.gc.model;
+package net.sparkworks.resource.template.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

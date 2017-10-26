@@ -1,6 +1,6 @@
-package net.sparkworks.gc.security;
+package net.sparkworks.resource.template.security;
 
-import net.sparkworks.gc.model.Template;
+import net.sparkworks.resource.template.model.Template;
 import org.springframework.security.access.PermissionEvaluator;
 import org.springframework.security.core.Authentication;
 
