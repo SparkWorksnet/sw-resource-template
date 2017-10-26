@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>gc</name>
+    <name>sw-resource-template</name>
     <description>Spark Works Resource Server Template for Spring Boot</description>
 
     <parent>
